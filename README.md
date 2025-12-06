@@ -1,48 +1,36 @@
 # 🚌 Bus Ticket Booking System in C
 
-A simple **terminal-based Bus Ticket Booking System** created using the C programming language.  
-This project demonstrates the use of **structures, arrays, conditionals, loops, and user input handling** to build a functional booking system.
+A simple terminal-based Bus Ticket Booking System written in C to demonstrate the use of structures, arrays, loops, and user input handling.
 
 ---
 
-## 📸 Project Screenshot  
+## 📸 Project Screenshot
 
-<img width="666" height="507" alt="BusC" src="https://github.com/user-attachments/assets/423cdc43-ff23-4756-9a66-40bc618f8816" />
+Add your screenshot here:
 
+![Project Screenshot](images/screenshot.png)
 
+Create a folder named **images** and save your screenshot as **screenshot.png**.
 
 ---
 
 ## 🚀 Features
 
-### ✔ **Book Ticket**
-Users can enter:
-- Passenger Name  
-- Seat Number  
-- Source  
-- Destination  
+### ✔ Book Ticket
+- Enter passenger name  
+- Enter seat number  
+- Enter source  
+- Enter destination  
 
----
+### 📄 View Reservations
+- Displays all bookings in a clean formatted table  
 
-### 📄 **View Reservations**
-Displays all booked seats in a clean table format showing:
-- Seat Number  
-- Passenger Name  
-- Source  
-- Destination  
+### ✏️ Edit Reservation
+- Update passenger name  
+- Update source  
+- Update destination  
 
----
-
-### ✏️ **Edit Reservation**
-Allows updating:
-- Passenger Name  
-- Source  
-- Destination  
-by entering the seat number.
-
----
-
-### 🎟️ **Print Ticket**
+### 🎟️ Print Ticket
 Generates a formatted ticket containing:
 - Passenger Name  
 - Seat Number  
@@ -56,38 +44,41 @@ Generates a formatted ticket containing:
 The program:
 - Stores bookings inside an array of structures  
 - Supports up to **30 seats**  
-- Uses a simple **text-based menu**  
-- Performs actions based on user input  
+- Uses a simple text-based menu  
+- Performs operations based on user input  
 
 ---
 
-🛠️ How to Run the Project
-Compile the code
+## 🛠️ How to Run the Project
 
-gcc bus.c
+### 1️⃣ Compile the code  
+gcc bus.c -o bus
 
-Run the program (Windows)
+### 2️⃣ Run the program (Windows)  
+bus
 
-a.exe
-(or ./bus if you use gcc bus.c -o bus)
+---
 
-📁 Project Structure
-├── bus.c
-├── README.md
-└── a.exe
+## 📁 Project Structure
 
+📁 Bus Ticket Booking System  
+│  
+├── bus.c  
+├── README.md  
+└── images/  
 
+---
 
+## ⭐ Future Improvements
 
-⭐ Future Improvements
+- Add seat availability checking  
+- Save bookings to a file  
+- Load bookings automatically at startup  
+- Add cancellation feature  
+- Improve terminal UI with colors and borders  
 
-✔ Add seat availability checking
-✔ Save bookings to a file
-✔ Load bookings automatically at startup
-✔ Add cancellation feature
-✔ Improve terminal UI with colors and borders
+---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Mohamed Salih
-
+**Mohamed Salih**
